@@ -34,11 +34,11 @@ github:
   username: 15262331232
 swiftype:
   searchId: iXZyPokVfxFaBTvi64Y6
-gitment:
-    repo: blog.github.io
-    enable: true
-    client_id: 3efaf9d13f44c16bbcfd
-    client_secret: b11a543135681ed6f8cba78efeba53129842d198
+#gitment:
+#    repo: blog.github.io
+#    enable: true
+#    client_id: 3efaf9d13f44c16bbcfd
+#    client_secret: b11a543135681ed6f8cba78efeba53129842d198
 
 url: "https://15262331232.github.io/blog.github.io"
 imgrepo: "https://bit-ranger.github.io/blog/static/img"
