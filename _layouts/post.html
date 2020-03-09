@@ -32,9 +32,20 @@ layout: default
           </div>
         </div>
         <div class="pad-min"></div>
-        <div id="post-comment" class="sheet post hidden">
-            <div id="disqus_thread"></div>
-        </div>
+        <div id="gitmentContainer"></div>
+			<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+			<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+			<script>
+			var gitment = new Gitment({
+				owner: '15262331232',
+				repo: 'blog.github.io',
+				oauth: {
+					client_id: '456215be18d9e706f1b9',
+					client_secret: 'ebc52d0233e44e48d65b2514f80f336593ca77f1',
+				},
+			});
+			gitment.render('gitmentContainer');
+			</script>
     </div>
     <div class="content-navigation col-lg-3">
       <div class="shadow-bottom-center" >
