@@ -45,7 +45,7 @@ layout: default
 				repo: 'blog.github.io',
 				owner: '15262331232',
 				admin: ['15262331232'],
-				id:window.location.pathname,
+				id: decodeURI('{{ page.url }}'),
 
 			});
 			gitalk.render('gitalk-container');
