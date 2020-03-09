@@ -35,9 +35,10 @@ github:
 swiftype:
   searchId: iXZyPokVfxFaBTvi64Y6
 gitment:
-    repo: blog
-    client_id: a6fb73b3e790e234bab8
-    client_secret: cc10aaff53a03d05ab2ee002dbf401dd7627c7a3
+    enable: true
+    repo: Git cemt
+    client_id: 456215be18d9e706f1b9
+    client_secret: ebc52d0233e44e48d65b2514f80f336593ca77f1
 
 url: "https://15262331232.github.io/blog.github.io"
 imgrepo: "https://bit-ranger.github.io/blog/static/img"
