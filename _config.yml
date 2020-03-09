@@ -35,7 +35,6 @@ github:
 swiftype:
   searchId: iXZyPokVfxFaBTvi64Y6
 gitment:
-    enable: true
     repo: Git cemt
     client_id: 456215be18d9e706f1b9
     client_secret: ebc52d0233e44e48d65b2514f80f336593ca77f1
