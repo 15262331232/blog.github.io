@@ -11,6 +11,24 @@ layout: default
             <article>
                 {{ content }}
             </article>
+			<!-- Link Gitalk 的支持文件  -->
+		<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+		<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
+		<div id="gitalk-container"></div>     <script type="text/javascript">
+			var gitalk = new Gitalk({
+
+			// gitalk的主要参数
+				clientID: '3efaf9d13f44c16bbcfd',
+				clientSecret: 'b11a543135681ed6f8cba78efeba53129842d198',
+				repo: 'blog.github.io',
+				owner: '15262331232',
+				admin: ['15262331232'],
+				id: decodeURI('{{ page.url }}'),
+
+			});
+			gitalk.render('gitalk-container');
+		</script> 
+		<!-- Gitalk end -->
         </div>
     </div>
 </div>
