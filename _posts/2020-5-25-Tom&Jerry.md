@@ -7,7 +7,7 @@ yudz :
 
 ### 解压码：
 
-​	解压码：*PASD-05QA-Z261-A046-SS9Q*
+​	解压码：<p style="color:white">PASD-05QA-Z261-A046-SS9Q</p>
 
 ### 如何解压：
 
